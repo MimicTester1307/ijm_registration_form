@@ -1,17 +1,33 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Volunteer Sign-up Form</title>
-</head>
-<body>
-<main>
-    <form action="#" method="post">
 
-    </form>
-</main>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>ijm-registration-form</title>
+    <link rel="stylesheet" href="/static/assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/static/assets/css/Contact-Form-Clean.css">
+{#    <link rel="stylesheet" href="/assets/css/styles.css">#}
+</head>
+
+<body>
+    <section class="contact-clean">
+        <form>
+            <h2 class="text-center">Register as a Volunteer</h2>
+            <div class="mb-3"><input class="form-control" type="text" name="firstName" placeholder="First Name" style="margin: 0px 0px 15px 0px;" autofocus="" required=""><input class="form-control" type="text" name="lastName" placeholder="Last Name" required=""></div>
+            <div class="mb-3"><input class="form-control" type="email" name="email" placeholder="Email" required=""></div>
+            <div><input class="form-control" type="tel" name="phoneNumber" placeholder="Phone Number" style="margin: 0px 0px 15px 0px;"></div>
+            <div>
+                <h5>Volunteer Type</h5><select class="form-select">
+                    <option value="12">Prayer Partner</option>
+                    <option value="13">Justice Advocate</option>
+                </select>
+            </div>
+            <div class="text-center"><button class="btn btn-primary" type="submit">Join US!</button></div>
+        </form>
+    </section>
+    <script src="/static/assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="/static/assets/js/smart-forms.min.js"></script>
 </body>
+
 </html>
