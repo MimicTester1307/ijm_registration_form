@@ -7,7 +7,7 @@
     <title>Volunteer Registration</title>
     <link rel="stylesheet" href="/static/assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="/static/assets/css/Contact-Form-Clean.css">
-        <link rel="shortcut icon" href="/static/assets/ijm_logo.png" type="image/x-icon">
+    <link rel="shortcut icon" href="/static/assets/ijm_logo.png" type="image/x-icon">
 
 </head>
 
@@ -15,18 +15,39 @@
     <section class="contact-clean">
         <form action="#" method="post">
             <h2 class="text-center">Register as a Volunteer</h2>
-            <div class="mb-3"><input class="form-control" type="text" name="firstName" placeholder="First Name" style="margin: 0px 0px 15px 0px;" autofocus="" required=""><input class="form-control" type="text" name="lastName" placeholder="Last Name" required=""></div>
-            <div class="mb-3"><input class="form-control" type="email" name="email" placeholder="Email" required=""></div>
-            <div><input class="form-control" type="tel" name="phoneNumber" placeholder="Phone Number" style="margin: 0px 0px 15px 0px;"></div>
+
+            <!-- Name Form Inputs -->
+            <div class="mb-3">
+                <input class="form-control" type="text" name="firstName" placeholder="First Name" style="margin: 0px 0px 15px 0px;" autofocus="" required="">
+                <input class="form-control" type="text" name="lastName" placeholder="Last Name" required="">
+            </div>
+
+            <!-- Email Form Inputs -->
+            <div class="mb-3">
+                <input class="form-control" type="email" name="email" placeholder="Email" required="">
+            </div>
+
+            <!-- Phone Number Form Inputs -->
+            <div>
+                <input class="form-control" type="tel" name="phoneNumber" placeholder="Phone Number" style="margin: 0px 0px 15px 0px;">
+            </div>
+
+            <!-- Volunteer Type Selection-->
             <div>
                 <h5>Volunteer Type</h5><select class="form-select">
                     <option value="12">Prayer Partner</option>
                     <option value="13">Justice Advocate</option>
                 </select>
             </div>
-            <div class="text-center"><button class="btn btn-primary" type="submit">Join Us!</button></div>
+
+            <!-- Register Button -->
+            <div class="text-center">
+                <button class="btn btn-primary" type="submit">Join Us!</button>
+            </div>
         </form>
     </section>
+
+    <!-- BS- Javascript -->
     <script src="/static/assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="/static/assets/js/smart-forms.min.js"></script>
 </body>
