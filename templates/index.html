@@ -4,16 +4,17 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>Volunteer Registration</title>
+    <title>ijm-registration-form</title>
+    <link rel="shortcut icon" href="/static/assets/ijm_logo.png" type="image/x-icon">
     <link rel="stylesheet" href="/static/assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="/static/assets/css/Contact-Form-Clean.css">
-    <link rel="shortcut icon" href="/static/assets/ijm_logo.png" type="image/x-icon">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="/static/assets/css/styles.css">
 </head>
 
 <body>
-    <section class="contact-clean">
-        <form action="#" method="post">
+    <section class="contact-clean" style="background: rgb(241, 247, 252);">
+        <form style="background: rgb(255, 255, 255);" action="#" method="post">
             <h2 class="text-center">Register as a Volunteer</h2>
 
             <!-- Name Form Inputs -->
@@ -27,12 +28,13 @@
                 <input class="form-control" type="email" name="email" placeholder="Email" required="">
             </div>
 
-            <!-- Phone Number Form Inputs -->
+            <!-- Phone Number Form Input -->
             <div>
                 <input class="form-control" type="tel" name="phoneNumber" placeholder="Phone Number" style="margin: 0px 0px 15px 0px;">
             </div>
 
-            <!-- Volunteer Type Selection-->
+
+            <!-- Volunteer Type Selection -->
             <div>
                 <h5>Volunteer Type</h5>
                 <select name="volunteerType" class="form-select">
@@ -43,14 +45,15 @@
 
             <!-- Register Button -->
             <div class="text-center">
-                <button class="btn btn-primary" type="submit">Join Us!</button>
+                <button class="btn btn-primary" data-bss-hover-animate="pulse" type="submit">Join US!</button>
             </div>
         </form>
     </section>
 
-    <!-- BS- Javascript -->
+    <!-- BS-Javascript -->
     <script src="/static/assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="/static/assets/js/smart-forms.min.js"></script>
+    <script src="/static/assets/js/bs-init.js"></script>
 </body>
 
 </html>
