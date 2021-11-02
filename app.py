@@ -23,6 +23,7 @@ def index_page():
 @app.route("/", methods=["POST"])
 def receive_data():
     if request.method == "POST":
+
         # Retrieving the values inputted into the form
         first_name = request.form.get("firstName")
         last_name = request.form.get("lastName")
@@ -30,14 +31,18 @@ def receive_data():
         phone_number = request.form.get("phoneNumber")
         volunteer_type = request.form.get("volunteerType")
 
+        # writing the values to the sheet
         write_to_sheet([first_name, last_name, email, phone_number, volunteer_type])
+        return render_template("form-success.html")
 
 
-def write_to_sheet(iterable: list) -> None:
+def write_to_sheet(iterable):
     global row_index
 
-    arise_conference = CLIENT.open("Arise Conference 2021 Volunteer Registration").sheet1
-    arise_conference.insert_row(iterable, row_index)    # inserting the iterable into the sheet as a row
+    arise_conference = CLIENT.open_by_url(
+        "https://docs.google.com/spreadsheets/d/1IbNNh4IMtbPp7igSVHkXwc_bFlzfYRRSR8iAyIe35IE")
+
+    arise_conference.sheet1.insert_row(iterable, row_index)  # inserting the iterable into the sheet as a row
 
     row_index += 1
 
