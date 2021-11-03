@@ -3,6 +3,7 @@ import gspread
 from oauth2client.service_account import ServiceAccountCredentials
 from dotenv import load_dotenv
 import os
+import time
 
 # Loading the environment variables
 load_dotenv()
@@ -52,4 +53,5 @@ def write_to_sheet(iterable):
 
     arise_conference.sheet1.insert_row(iterable, row_index)  # inserting the iterable into the sheet as a row
 
+    time.sleep(1)    # using time.sleep to slow down the API calls / requests
     row_index += 1
