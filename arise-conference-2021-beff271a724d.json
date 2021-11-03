@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "arise-conference-2021",
+  "private_key_id": "beff271a724d672196e92972901e129a39f720ec",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC3Yg4YYyHuqXZr\n0gUgDFkoDM92qi3qSlx21zCWoQMlFX1+w5qOV3l+Kh7fdS8qevOl6YQux07Y9A0k\n5x6UBiAnqpXDd9h/+w4XSTzayntLpZtRL0FmldNG1c9Nlh+M3GanGJsI5bixkpHo\ndkPkYjFwZbT4vCnbTdrpFZ+AyOhfwJukc8L10tu9bgQOdvJUNtyNq3UOohwxZi3l\nROOQbc9b8FUvyuZQZQ7IeolizBw/mmz4W4taqXXrcnsOWTPltPT/H3N1f/xNfqw5\nmpjahK+p5sJ8nAvFUS0PMg8NDeDd4zsgjyALA0seAD6xQ7mnOMs0YMq2u0+TzQUZ\nmQOZ4ro3AgMBAAECggEAIVgigPuxhVBp+HPxO6ETKw2dQZHzFFleE7vQGWuAg2Mz\ndPPDLCOqsy6ce3w2zc4adG4P+2OBKkDCDRY7QKYWfa/uWGL3ylmPd9t4xb2wipI7\nuhjSFwGiL4ycC5sC9J10yuhV9Fm06hDhF/g9Iw9Ztvq/W8T3BWnUJrKoVIXzfslb\nlom/73hhx/Qcxi4xOuMiP8sWRJh7EqwJfkgU1sW8FDJF543pWv5M1CkRGN9GRT3l\nkniGeh8Un5m1jRlNvAoidCpcOM5jh1pxFQjxEvNCj6wHaNlIS+oQld5+8JoCu8N5\naqphSdXlf45Wkq5APSYU63agwdpJOfWyThoPEd5GuQKBgQDbZAoO5Pc+Jg/eOsWr\nwGUm5fKUFGECeFmK4Sf+Ch6fmsQG78h4yTFtFHa6NjRW4+1d38TUkH1d/qzlV2XM\nPbniIAG/7+bgLOIYOF2ir0jsQNNS1WWdZr+p9q5zz0RH2SZhXxr3IVFlgbv9Zt5H\n2URs41n/uWj37Uy8D5tvghPPvwKBgQDV+9UeN+2lH+HzYQSWhiX2V2xFD+SUwy0Y\nATCKP06ZVVfe4wZqM0lVR2ZmLaB1KZMRmgVGxnGYiePXEctEkT53KFrdgadTBYL+\nVaTDpMPr0jM9XVF/EW00xVSz6Ysu1XMV4hGsPlKPSyEo+35giNOjS/+fqLtshAMZ\nZ7vWXnqziQKBgBJ/rvFukQJmhzP/1KcUw/KxtPCTf1KL/1Dch1i+VbKzhA/prAez\nPz2pWhF9fJBPC7a8pYYe4NNKJB36bpT4J3JPrJYYjmkcn7vXFN4g1Y9GMAtt/vF0\ntniIWlFdiq5cOwY+1LE91/UtKULGp7t7MG/WA8KySY2OLsg0sLCIUU9VAoGAWjyx\n2eVx9QFl8pGGMsfteF3TjagvF8Da4lWWF6asyaKgxKBuUxi/oxPSDeLN2Lqoh3Kx\nKPCEdPQpPcgGNSse8Xb2IpULb8pSPFj3e32fFXJ2IzmYJYK+z9Mrbhddl2lx99d2\n5nD9tenT2Ql9eM4ambFx4e1w5EkjWXJSVwtOqSkCgYEAql2jQjTXk/TMC4XqFi7S\nWqaYU2bPB16BNRPGC2+YmHXv+dkgh7x1Kmy6TdcqbUpidUDftGRqXJCHQXq3J4e2\nIqngcS7ApGQbTFRCAlq/FNuAumACUkSyQwgztwmaGQkAFy6xg1GwapMgHzw6rNm1\nrYqaZ/sLtnDGPO52RjZQV4I=\n-----END PRIVATE KEY-----\n",
+  "client_email": "arise-conference@arise-conference-2021.iam.gserviceaccount.com",
+  "client_id": "116388810809420667261",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/arise-conference%40arise-conference-2021.iam.gserviceaccount.com"
+}
