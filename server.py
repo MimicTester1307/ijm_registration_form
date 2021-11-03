@@ -9,13 +9,13 @@ load_dotenv()
 
 SCOPE1 = os.getenv("SCOPE1")
 SCOPE2 = os.getenv("SCOPE2")
-CLIENT_SECRETS = os.getenv("CLIENT_SECRETS")
 SPREADSHEET_URL = os.getenv("SPREADSHEET_URL")
+CLIENT_SECRETS = os.getenv("CLIENT_SECRETS")
 
 """ Setting up access to the Spreadsheet File """
 # Creating Scope for File Editing
 SCOPE = [SCOPE1, SCOPE2]
-CREDS = ServiceAccountCredentials.from_json_keyfile_name(CLIENT_SECRETS, SCOPE)
+CREDS = ServiceAccountCredentials.from_json_keyfile_name(CLIENT_SECRETS, scopes=SCOPE)
 CLIENT = gspread.authorize(CREDS)  # authorizing the gspread object using the credentials
 
 # Initializing the row index for the spreadsheet to 2 because the first row serves as the headers.
