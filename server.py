@@ -53,7 +53,3 @@ def write_to_sheet(iterable):
     arise_conference.sheet1.insert_row(iterable, row_index)  # inserting the iterable into the sheet as a row
 
     row_index += 1
-
-
-if __name__ == '__main__':
-    app.run(debug=True)
