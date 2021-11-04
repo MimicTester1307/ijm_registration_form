@@ -38,8 +38,10 @@ def receive_data():
         first_name = request.form.get("firstName")
         last_name = request.form.get("lastName")
 
+        # Basic validation for first and last names
         if int(first_name) and int(last_name):
             return Response(response="Invalid first or last names given.", status=400)
+
         email = request.form.get("email")
         phone_number = request.form.get("phoneNumber")
         volunteer_type = request.form.get("volunteerType")
