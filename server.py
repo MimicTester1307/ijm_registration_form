@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request
+from flask import Flask, render_template, request, Response
 import gspread
 from oauth2client.service_account import ServiceAccountCredentials
 from dotenv import load_dotenv
@@ -37,6 +37,9 @@ def receive_data():
         # Retrieving the values inputted into the form
         first_name = request.form.get("firstName")
         last_name = request.form.get("lastName")
+
+        if int(first_name) and int(last_name):
+            return Response(response="Invalid first or last names given.", status=400)
         email = request.form.get("email")
         phone_number = request.form.get("phoneNumber")
         volunteer_type = request.form.get("volunteerType")
