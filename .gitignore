@@ -2,5 +2,5 @@ venv
 .env
 .idea
 Procfile
-arise-conference-2021-beff271a724d.json
-.gitignore
+.secrets
+
