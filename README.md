@@ -2,7 +2,7 @@ As part of my volunteer work at International Justice Mission (IJM), Ghana, I bu
 
 Skills /  Technologies Used:
 
-Python
-Flask
-Bootstrap
-HTML/CSS
+- Python
+- Flask
+- Bootstrap
+- HTML/CSS
